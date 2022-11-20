@@ -1,9 +1,7 @@
-import { NextFunction } from "express"
+import { NextFunction, Request, Response, RequestHandler } from "express";
 
-const loginController = {
-    async login(req: Request, res: Response, next: NextFunction) {
-        // return res.status(200).json({msg: 'register user...'})
-    }
+const loginController: RequestHandler = async (req: Request, res: Response, next: NextFunction) => {
+    return res.status(200).json({ msg: 'login user...' })
 }
 
 export default loginController;

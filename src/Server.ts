@@ -1,4 +1,4 @@
-import express, { Application } from "express";
+import express, { Application, NextFunction, Request, Response } from "express";
 import cors from "cors";
 import morgan from 'morgan';
 import { APP_PORT } from "../config";
@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }))
 
 // Routes....
 app.use('/api/v1', router);
-app.use('/', (_req, _res) => {
+app.use('/', (_req: Request, _res: Response, _next: NextFunction) => {
     _res.send(`<h1> <404/> No data found for this route</h1>`);
 })
 

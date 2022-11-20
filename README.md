@@ -1,4 +1,4 @@
-## `Node, Express, TypeScript, MongoDB -- server`
+## `Node, Express, TypeScript, MongoDB -- Server`
 
 `Express && TypeScript` magic for your next project.
 
