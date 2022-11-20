@@ -4,7 +4,7 @@
 
 👉 All the files are `pre configured` for you.
 
-👈 Just clone and start working.
+   Just clone and start working. 👈
 
 ## Overview
 
