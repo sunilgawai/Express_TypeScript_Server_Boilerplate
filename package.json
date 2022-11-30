@@ -5,7 +5,7 @@
   "main": "Server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/Server.js",
+    "start": "node dist/src/Server.js",
     "dev": "nodemon -r esm ./src/Server.ts",
     "dev-ts-node": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"ts-node src/index.ts\""
   },
